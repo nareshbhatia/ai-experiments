@@ -23,8 +23,8 @@ npm run storybook
 
 Open browser windows at the following URLs to see the respective apps:
 
-1. http://localhost:3000/: Ai Playground
-2. http://localhost:6006/: Storybook
+1. http://localhost:3000/: Cheap AI Chat
+2. http://localhost:3001/: Cheap AI Photo Reviewer
 
 > Note: Do not run `npm install` or `npm ci` in any of the subdirectories. It
 > will break the build. There should be only one `package-lock.json` file in the
