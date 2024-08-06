@@ -1,8 +1,6 @@
-# Ai Playground
+# AI Playground
 
-** Add a short description of Ai Playground here. **
-
-This repository was bootstrapped with [Code Shaper](https://code-shaper.dev).
+Sample apps demonstrating the use of AI models.
 
 ## Prerequisites for development
 
