@@ -1,4 +1,4 @@
-import { StreamingTextResponse, streamText } from 'ai';
+import { streamText } from 'ai';
 import { createOllama } from 'ollama-ai-provider';
 
 const ollama = createOllama();
@@ -34,5 +34,5 @@ export async function POST(req: Request) {
     ],
   });
 
-  return new StreamingTextResponse(result.toAIStream());
+  return result.toDataStreamResponse();
 }
