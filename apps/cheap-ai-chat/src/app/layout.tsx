@@ -1,4 +1,3 @@
-import { AppHeader } from '@/components/AppHeader';
 import { AppProvider } from '@/providers';
 import type { Metadata } from 'next';
 import { unstable_noStore as noStore } from 'next/cache';
@@ -19,8 +18,8 @@ const robotoMono = RobotoMono({
 });
 
 export const metadata: Metadata = {
-  title: 'Cheap Ai Chat',
-  description: 'Cheap Ai Chat',
+  title: 'Cheap AI Chat',
+  description: 'Cheap AI Chat',
 };
 
 interface RootLayoutProps {
@@ -41,10 +40,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     >
       <body>
         <AppProvider baseApiUrl={baseApiUrl} useMockData={useMockData}>
-          <div className="relative flex min-h-screen flex-col">
-            <AppHeader />
-            <main className="flex-1">{children}</main>
-          </div>
+          {children}
         </AppProvider>
       </body>
     </html>
