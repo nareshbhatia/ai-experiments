@@ -20,9 +20,14 @@
     "_codegen": "echo add any code generation steps here"
   },
   "dependencies": {
+    "ai": "^3.3.0",
     "next": "^14.2.5",
+    "ollama": "^0.5.6",
+    "ollama-ai-provider": "^0.11.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-dropzone": "^14.2.3",
+    "react-markdown": "^9.0.1"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.6.1",

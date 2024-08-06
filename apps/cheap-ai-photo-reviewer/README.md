@@ -1,4 +1,4 @@
 # Cheap AI Photo Reviewer
 
-This is a [Next.js](https://nextjs.org/) app bootstrapped with
-[Code Shaper](https://code-shaper.dev).
+Based on Jack Herrington's video:
+[How To Develop 2 AI Apps in 10 Minutes!](https://www.youtube.com/watch?v=92YgIVSlfAE)

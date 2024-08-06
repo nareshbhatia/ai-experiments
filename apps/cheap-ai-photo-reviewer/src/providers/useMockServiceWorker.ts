@@ -10,7 +10,6 @@ export function useMockServiceWorker(useMockData: boolean) {
       const { worker } = require('@/mocks/browser') as {
         worker: SetupWorker;
       };
-      // eslint-disable-next-line promise/always-return
       void worker.start({ onUnhandledRequest: 'bypass' }).then(() => {
         setWorkerStarted(true);
       });

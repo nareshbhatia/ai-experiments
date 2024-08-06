@@ -4,7 +4,7 @@ module.exports = {
     node: true,
   },
   extends: [
-    '@code-shaper/eslint-config/strict-react',
+    '@code-shaper/eslint-config',
     'next/core-web-vitals',
     'plugin:@dword-design/import-alias/recommended',
     'plugin:storybook/recommended',

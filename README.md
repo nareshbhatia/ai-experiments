@@ -12,6 +12,10 @@ This repository was bootstrapped with [Code Shaper](https://code-shaper.dev).
 ## Getting Started
 
 ```shell
+# create environment files
+cp apps/cheap-ai-chat/.env.example apps/cheap-ai-chat/.env.local
+cp apps/cheap-ai-photo-reviewer/.env.example apps/cheap-ai-photo-reviewer/.env.local
+
 nvm use        # use the required version of node
 npm ci         # install dependencies
 npm run build  # build all packages
