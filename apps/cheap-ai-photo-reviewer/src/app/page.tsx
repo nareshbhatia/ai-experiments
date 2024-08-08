@@ -46,7 +46,10 @@ export default function Chat() {
       !messages.find(({ role }) => role !== 'user')
     ) {
       console.log('Chat page submitting the file');
-      handleSubmit();
+      // fix based on https://github.com/vercel/ai/discussions/2579#discussioncomment-10276842
+      handleSubmit(undefined, {
+        allowEmptySubmit: true,
+      });
     }
   }, [isLoading, encodedFiles, messages, handleSubmit]);
 
