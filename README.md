@@ -7,8 +7,8 @@ Sample apps demonstrating the use of AI models.
 1. [Node Version Manager](https://github.com/nvm-sh/nvm) (nvm) - allows using
    different versions of node via the command line
 2. Install Ollama using `brew install ollama`
-3. Run the required models: `ollama run phi3` and `ollama run llava-llama3`
-4. Start the Ollama service `brew services start ollama`
+3. Start the Ollama service `brew services start ollama`
+4. Run the required models: `ollama run phi3` and `ollama run llava-llama3`
 
 ## Getting Started
 
