@@ -1,6 +1,12 @@
-# AI Playground
+# AI Experiments
 
-Sample apps demonstrating the use of AI models.
+Simple experiments demonstrating the use of AI models.
+
+Please follow the links below for details of each sample:
+
+1. [Cheap AI Chat](apps/cheap-ai-chat/)
+2. [Cheap AI Photo Reviewer](apps/cheap-ai-photo-reviewer/)
+3. [Codegen using Code Llama](apps/codegen-code-llama/)
 
 ## Prerequisites for development
 
@@ -8,28 +14,28 @@ Sample apps demonstrating the use of AI models.
    different versions of node via the command line
 2. Install Ollama using `brew install ollama`
 3. Start the Ollama service `brew services start ollama`
-4. Run the required models: `ollama run phi3` and `ollama run llava-llama3`
+4. Run the required models:
+
+```shell
+ollama run phi3
+ollama run llava-llama3
+ollama run codellama:70b-instruct
+```
 
 ## Getting Started
 
 ```shell
-# create environment files
-cp apps/cheap-ai-chat/.env.example apps/cheap-ai-chat/.env.local
-cp apps/cheap-ai-photo-reviewer/.env.example apps/cheap-ai-photo-reviewer/.env.local
-
 nvm use        # use the required version of node
 npm ci         # install dependencies
 npm run build  # build all packages
 npm run dev    # run apps
-
-# in a separate shell
-npm run storybook
 ```
 
 Open browser windows at the following URLs to see the respective apps:
 
 1. http://localhost:3000/: Cheap AI Chat
 2. http://localhost:3001/: Cheap AI Photo Reviewer
+3. http://localhost:3002/: Codegen using Code Llama
 
 > Note: Do not run `npm install` or `npm ci` in any of the subdirectories. It
 > will break the build. There should be only one `package-lock.json` file in the

@@ -1,11 +1,11 @@
 {
-  "name": "ai-playground",
-  "description": "AI Playground",
+  "name": "ai-experiments",
+  "description": "Simple experiments demonstrating the use of AI models",
   "version": "0.0.1",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ai-playground/ai-playground"
+    "url": "https://github.com/ai-playground/ai-experiments"
   },
   "workspaces": [
     "apps/*",

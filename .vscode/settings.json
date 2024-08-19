@@ -3,6 +3,7 @@
     "autodocs",
     "clsx",
     "codegen",
+    "codellama",
     "commitlint",
     "copyfiles",
     "deepmerge",
