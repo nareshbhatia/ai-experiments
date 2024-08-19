@@ -19,6 +19,11 @@ Please follow the links below for details of each sample:
 ```shell
 ollama run phi3
 ollama run llava-llama3
+
+# one of the following Code Llama models based on your local memory
+ollama run codellama:7b-instruct
+ollama run codellama:13b-instruct
+ollama run codellama:34b-instruct
 ollama run codellama:70b-instruct
 ```
 

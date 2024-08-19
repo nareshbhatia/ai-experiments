@@ -8,7 +8,7 @@ export async function POST(req: Request) {
   const { messages } = await req.json();
 
   const result = await streamText({
-    model: ollama('codellama:70b-instruct'),
+    model: ollama('codellama:13b-instruct'),
     // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
     messages,
   });
