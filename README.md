@@ -1,6 +1,6 @@
 # AI Experiments
 
-Simple experiments demonstrating the use of AI models.
+My experiments with Chatbots, RAG, Code Llama, and more
 
 Please follow the links below for details of each sample:
 
