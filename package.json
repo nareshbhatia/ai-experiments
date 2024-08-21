@@ -1,6 +1,6 @@
 {
   "name": "ai-experiments",
-  "description": "My experiments with Chatbots, RAG, Code Llama, and more",
+  "description": "My experiments with LLMs, RAG, Code Llama, and more",
   "version": "0.0.1",
   "private": true,
   "repository": {
